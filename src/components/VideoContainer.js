@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 
 const VideoContainer = () => {
     const url=process.env.REACT_APP_API_URL;
+    console.log(url,"url");
     useEffect(()=>{
         getVideo();
     },[]);
