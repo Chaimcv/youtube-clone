@@ -6,10 +6,13 @@ const appSlice=createSlice({
         isMenuOpen:true,
     },
     reducers:{
-        toggleMenu: (state) =>{
+        toggleMenu: (state) =>{            //to collapse side bar on hamburger action in homepage(Body"/")
             state.isMenuOpen=!state.isMenuOpen;
+        },
+        closeMenu:(state)=>{             //to collapse the sidebar in watchpage
+            state.isMenuOpen=false;     
         }
     }
 });
-export const{toggleMenu}=appSlice.actions;
+export const{toggleMenu,closeMenu}=appSlice.actions;
 export default appSlice.reducer;
