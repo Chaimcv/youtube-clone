@@ -8,9 +8,11 @@ const Head = () => {
 
    //search bar
 const[searchQuery,setSearchQuery]=useState("");  
+const[suggestions,setSuggestions]=useState([]);   //to get search suggestion
+const[showSuggestions,setShowSuggestions]=useState(false);  //for visibility of search suggestions
 console.log(searchQuery);
 // useEffect(()=>{
-//    const timer=setTimeout(()=>getSearchSuggesstions(),200);                       //api call on every key press,but when difference between two key strokes is less than 200ms-> decline api call
+//    const timer=setTimeout(() => getSearchSuggesstions(),200);                       //api call on every key press,but when difference between two key strokes is less than 200ms-> decline api call
 // return() =>{
 // clearTimeout(timer); 
 //};
@@ -44,7 +46,7 @@ console.log(searchQuery);
         <input
           type="text"
           placeholder="  Search"
-          className="w-1/2 h-10 rounded-s-full border border-slate-400"
+          className="w-1/2 h-10 rounded-s-full border border-slate-400 p-3"
           value={searchQuery}
           onChange={(e)=>setSearchQuery(e.target.value)}
         />
