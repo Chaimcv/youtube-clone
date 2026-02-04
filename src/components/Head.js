@@ -21,6 +21,7 @@ console.log(searchQuery);
 //   const data = await fetch(YOUTUBE_SEARCH_API + searchQuery);
 //   const json = await data.json();
 //   console.log(json,"search");
+//   setSuggestions(json[1]);
 // };
 
   
@@ -49,6 +50,8 @@ console.log(searchQuery);
           className="w-1/2 h-10 rounded-s-full border border-slate-400 p-3"
           value={searchQuery}
           onChange={(e)=>setSearchQuery(e.target.value)}
+          onFocus={() => setShowSuggestions(true)}
+          onBlur={() => setShowSuggestions(false)}
         />
         <button className="border border-slate-400 h-10 rounded-e-full bg-slate-100">
           <img
@@ -58,6 +61,22 @@ console.log(searchQuery);
           />
         </button>
       </div>
+      {showSuggestions &&(
+        <div className="bordeder border-gray-300 fixed bg-white py-2 px-2 w-50 rounded-lg">
+          <ul>
+            {suggestions.map((searching)=>(
+              <li key={searching} className="py-2 px-3 shadow-sm hover:bg-slate-100">
+                <img
+            className="w-11"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStyFE3cmdz5xct0IyrFWpbLlATgczRKuarKw&s"
+            alt="search-icon"
+          />{searching}
+              </li>
+            ))}
+            
+            </ul>
+        </div>
+      )}
       <div className="col-span-1">
         <img
           className="h-5"
