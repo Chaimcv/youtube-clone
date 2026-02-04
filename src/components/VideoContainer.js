@@ -12,15 +12,24 @@ const VideoContainer = () => {
     },[]);
     const getVideo=async () =>{
         const data =await fetch(YOUTUBE_VIDEOS_API);
-        const json=await data.json();
-        console.log(json.items,"videos accessed");
+       const json=await data.json();
+        console.log(json,"videos accessed");
         setVideos(json.items);
     };
+    console.log(videos,"videos");
   return (
     <div className='flex flex-wrap'>
-      {videos.map((video)=>(
- <Link to={"/watch?v="+video.id}><VideoCard key={video.id} info={video}/></Link>
-      ))}
+      {
+       videos?.length> 0?(
+      
+        videos.map((video)=>(
+          <Link to={"/watch?v="+video.id}><VideoCard key={video.id} info={video}/></Link>
+         ))
+        
+      ):( 
+    <div><h1>No videos  available</h1></div>
+      )
+    }   
     </div> 
   );
 }
