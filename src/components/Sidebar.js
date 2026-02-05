@@ -16,30 +16,30 @@ const Sidebar = () => {
          <h1 className='font-bold'>You</h1>
         <ul>
             <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-5 m-2 inline-flex" src="https://seekicon.com/free-icon-download/history_8.svg" />History</li>
-            <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-10 h-10 inline-flex" />Playlist</li>
-            <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-10 h-10 inline-flex" />Watch Later</li>
-            <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-10 h-10 inline-flex" />Liked Videos</li>
+            <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-5 inline-flex m-2" src="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/playlist-videos-icon.png" alt='playlist' />Playlist</li>
+            <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-6 h-6 inline-flex m-1" src="https://cdn.creazilla.com/icons/3264833/watch-later-icon-size_512.png" alt='watch later' />Watch Later</li>
+            <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-5 inline-flex m-2" />Liked Videos</li>
         </ul>
         <h1 className='font-bold'>Explore</h1>
         <ul>
-            <li  className=' hover:bg-slate-100 rounded-lg'>Shopping</li>
-            <li>Music</li>
-            <li>Films</li>
-            <li>Show more</li>
+            <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-5 inline-flex m-2" />Shopping</li>
+            <li><img className="w-5 h-5 inline-flex m-2" />Music</li>
+            <li><img className="w-5 h-5 inline-flex m-2" />Films</li>
+            <li><img className="w-5 h-5 inline-flex m-2" />Show more</li>
         </ul>
          <h1 className='font-bold'>More from Youtube</h1>
         <ul>
-            <li>YouTube Premium</li>
-            <li>YpuTube Music</li>
-            <li>YouTube Kids</li>
+            <li><img className="w-5 h-5 inline-flex m-2" />YouTube Premium</li>
+            <li><img className="w-5 h-5 inline-flex m-2" />YpuTube Music</li>
+            <li><img className="w-5 h-5 inline-flex m-2" />YouTube Kids</li>
             
         </ul>
        
         <ul>
-            <li>Settings</li>
-            <li>Report History</li>
-            <li>Help</li>
-            <li>Send Feedback</li>
+            <li><img className="w-5 h-5 inline-flex m-2" />Settings</li>
+            <li><img className="w-5 h-5 inline-flex m-2"/>Report History</li>
+            <li><img className="w-5 h-5 inline-flex m-2" />Help</li>
+            <li><img className="w-5 h-5 inline-flex m-2" />Send Feedback</li>
         </ul>
     </div>
   )
