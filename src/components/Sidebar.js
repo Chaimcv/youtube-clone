@@ -17,8 +17,8 @@ const Sidebar = () => {
         <ul>
             <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-5 m-2 inline-flex" src="https://seekicon.com/free-icon-download/history_8.svg" />History</li>
             <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-5 inline-flex m-2" src="https://uxwing.com/wp-content/themes/uxwing/download/video-photography-multimedia/playlist-videos-icon.png" alt='playlist' />Playlist</li>
-            <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-6 h-6 inline-flex m-1" src="https://cdn.creazilla.com/icons/3264833/watch-later-icon-size_512.png" alt='watch later' />Watch Later</li>
-            <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-5 inline-flex m-2" />Liked Videos</li>
+            <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-6 h-6 inline-flex ml-1 my-2 mr-2" src="https://cdn.creazilla.com/icons/3264833/watch-later-icon-size_512.png" alt='watch later' />Watch Later</li>
+            <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-5 inline-flex m-2" src="https://www.pngfind.com/pngs/m/286-2863936_png-file-svg-youtube-like-button-white-transparent.png" alt='liked videos' />Liked Videos</li>
         </ul>
         <h1 className='font-bold'>Explore</h1>
         <ul>
