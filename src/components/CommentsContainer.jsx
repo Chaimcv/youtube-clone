@@ -34,7 +34,7 @@ import React from "react";
 
   const Comment = ({ data }) => {
     const { name, text, replies } = data;     //extracting(destructuring) name,text and replies
-    console.log(name, "names");
+    console.log(data, "names");
     return (
       <div className="flex bg-gray-100">
         <img
@@ -50,24 +50,32 @@ import React from "react";
     );
   };
 
-  const CommentList = ({ comments }) => {
-    return 
-        comments.map((comment,index) => (
+  const CommentList = ( {comments} ) => {
+    console.log(typeof(comments),"comments-commentlist");
+    return (
+        <div>
+        {comments.map((comment,index) => (
+
           <div>
+
+             <h1>comment list</h1>
             <Comment key={index} data={comment} />;           
             <div className="replies pl-5 border border-l-black ml-5">
+               
                <CommentList comments={comment.replies} />
             </div>
           </div>
-        ));
+        ))};
+        </div>
+    )
   };
 
   const CommentsContainer = () => {
+    console.log(typeof(commentsData),"commentsdata");
   return (
     <div className="m-2 p-2">
       <h1 className="font-bold">Comments</h1>
       <CommentList comments={commentsData} />
-     
     </div>
   );
 };
