@@ -12,11 +12,11 @@ const WatchPage = () => {
     dispatch(closeMenu()); //to collapse side bar on watchPage load
   }, []);
   return (
-    <div className="flex flex col">
-    <div className="ps-40">
+    <div className="flex flex-col">
+    <div className="px-5">
       <iframe
-        width="560"
-        height="315"
+        width="900"
+        height="500"
         src={"https://www.youtube.com/embed/"+searchParams.get("v")}
         title="YouTube video player"
         frameBorder="0"
