@@ -22,7 +22,7 @@ const Sidebar = () => {
         </ul>
         <h1 className='font-bold'>Explore</h1>
         <ul>
-            <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-5 inline-flex m-2" />Shopping</li>
+            <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-6 inline-flex m-2" src="https://st4.depositphotos.com/20858482/38053/v/1600/depositphotos_380531066-stock-illustration-shopping-bag-icon-bag-vector.jpg" alt='shopping'/>Shopping</li>
             <li><img className="w-5 h-5 inline-flex m-2" />Music</li>
             <li><img className="w-5 h-5 inline-flex m-2" />Films</li>
             <li><img className="w-5 h-5 inline-flex m-2" />Show more</li>
