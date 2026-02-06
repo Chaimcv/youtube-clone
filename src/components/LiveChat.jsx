@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import ChatMessages from './ChatMessages'
 import { useDispatch, useSelector } from 'react-redux'
 import { addMessage } from '../utils/chatSlice';
+import { randomMessages } from '../utils/helper';
 
 const LiveChat = () => {
 const dispatch=useDispatch();
@@ -12,8 +13,9 @@ const chatMessages =useSelector((store)=> store.chat.messages);
         const i=setInterval(() => {
             //api call
          console.log("apipolling");
+         console.log(chatMessages);
          dispatch(addMessage({
-            name:"aa",
+            name:chatMessages,
             message:"ss",
          }))
         }, 2000);
