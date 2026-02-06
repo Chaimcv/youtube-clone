@@ -13,7 +13,7 @@ const WatchPage = () => {
     dispatch(closeMenu()); //to collapse side bar on watchPage load
   }, []);
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col w-full">
     <div className="px-5 flex">
       <div>
       <iframe
@@ -27,7 +27,7 @@ const WatchPage = () => {
         allowFullScreen
       ></iframe>
       </div>
-      <div>
+      <div className="w-full h-[500px]">
         <LiveChat />
       </div>
     </div>

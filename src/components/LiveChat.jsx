@@ -2,7 +2,7 @@ import React from 'react'
 
 const LiveChat = () => {
   return (
-    <div>LiveChat</div>
+    <div className='rounded-lg bg-slate-100'>LiveChat</div>
   )
 }
 
