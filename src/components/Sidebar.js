@@ -29,9 +29,9 @@ const Sidebar = () => {
         </ul>
          <h1 className='font-bold'>More from Youtube</h1>
         <ul>
-            <li><img className="w-5 h-5 inline-flex m-2" src="" />YouTube Premium</li>
-            <li><img className="w-5 h-5 inline-flex m-2" src="" />YpuTube Music</li>
-            <li><img className="w-5 h-5 inline-flex m-2" src="" />YouTube Kids</li>
+             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="" />YouTube Premium</li>
+            <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="" />YpuTube Music</li>
+            <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="" />YouTube Kids</li>
             
         </ul>
        
