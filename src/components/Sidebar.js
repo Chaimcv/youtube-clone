@@ -36,10 +36,10 @@ const Sidebar = () => {
         </ul>
        
         <ul>
-            <li><img className="w-5 h-5 inline-flex m-2" />Settings</li>
-            <li><img className="w-5 h-5 inline-flex m-2"/>Report History</li>
-            <li><img className="w-5 h-5 inline-flex m-2" />Help</li>
-            <li><img className="w-5 h-5 inline-flex m-2" />Send Feedback</li>
+             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" />Settings</li>
+             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2"/>Report History</li>
+             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" />Help</li>
+             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" />Send Feedback</li>
         </ul>
     </div>
   )
