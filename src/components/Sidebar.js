@@ -13,6 +13,7 @@ const Sidebar = () => {
             <li className=' hover:bg-slate-100 rounded-lg'> <img className="w-5 h-5 inline-flex m-2" src="https://img.icons8.com/?size=24&id=ajczeHCWXbyR&format=png" alt='shorts' />  Shorts</li>
             <li className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-5 inline-flex m-2" src="https://img.icons8.com/?size=100&id=DA3vWy7pLcg6&format=png&color=000000" alt="subscription" />Subscriptions </li>
         </ul>
+         <br />
          <h1 className='font-bold'>You</h1>
         <ul>
             <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-5 m-2 inline-flex" src="https://seekicon.com/free-icon-download/history_8.svg" />History</li>
@@ -20,6 +21,7 @@ const Sidebar = () => {
             <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-6 h-6 inline-flex ml-1 my-2 mr-2" src="https://cdn.creazilla.com/icons/3264833/watch-later-icon-size_512.png" alt='watch later' />Watch Later</li>
             <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-5 inline-flex m-2" src="https://www.pngfind.com/pngs/m/286-2863936_png-file-svg-youtube-like-button-white-transparent.png" alt='liked videos' />Liked Videos</li>
         </ul>
+        <br />
         <h1 className='font-bold'>Explore</h1>
         <ul>
             <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-6 inline-flex m-2" src="https://st4.depositphotos.com/20858482/38053/v/1600/depositphotos_380531066-stock-illustration-shopping-bag-icon-bag-vector.jpg" alt='shopping'/>Shopping</li>
@@ -27,13 +29,15 @@ const Sidebar = () => {
             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="" />Films</li>
             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="" />Show more</li>
         </ul>
+         <br />
          <h1 className='font-bold'>More from Youtube</h1>
         <ul>
              <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="" />YouTube Premium</li>
-            <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="" />YpuTube Music</li>
+            <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="" />YouTube Music</li>
             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="" />YouTube Kids</li>
             
         </ul>
+         <br />
        
         <ul>
              <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" />Settings</li>
