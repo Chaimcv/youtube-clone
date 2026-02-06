@@ -9,12 +9,12 @@ const VideoCard = ({ info }) => {
     const{ channelTitle,title,thumbnails }=snippet;
     
   return (
-    <div className='p-2 m-2 w-52 shadow-md'>
+    <div className='p-2 m-2 w-52 h-72 shadow-md hover:bg-blue-50'>
         <img className='rounded-lg' src={thumbnails?.medium?.url} alt='thumbnail' />
         <ul>
-            <li>{title}</li>
-            <li>{channelTitle}</li>
-            <li>{statistics.viewCount} views</li>
+            <li className='font-semibold'>{title}</li>
+            <li className='text-gray-600'>{channelTitle}</li>
+            <li className='text-gray-600'>{statistics.viewCount} views</li>
         </ul>
     </div>
   )
