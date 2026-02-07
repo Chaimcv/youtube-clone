@@ -9,7 +9,7 @@ const chatSlice=createSlice({
     reducers:{
         addMessage:(state,action)=>{
             state.messages.splice(LIVE_CHAT_COUNT,1);           //after 10 msg it will remove 1 msg from top
-            state.messages.unshift(action.payload);               //unshift-to make themsg appear from bottom
+            state.messages.push(action.payload);               //to make the new msg appear from bottom
         },
     },
 });

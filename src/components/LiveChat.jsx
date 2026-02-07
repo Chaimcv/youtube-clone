@@ -17,11 +17,11 @@ const chatMessages =useSelector((store)=> store.chat.messages);
          console.log(chatMessages);
          dispatch(addMessage({
             name:generateRandomName(),
-            message:makeRandomMessage(10),
+            message:makeRandomMessage(25),
          }))
         }, 2000);
         return ()=> clearInterval(i);
-    })
+    },[]);
   return (
     <>
     <div className='rounded-lg w-full h-[500px] p-3 ml-2 overflow-y-scroll flex flex-col-reverse'>
@@ -32,7 +32,12 @@ const chatMessages =useSelector((store)=> store.chat.messages);
    </div>
    
     </div>
-     <form className='w-full border p-1 border-gray-800'>
+     <form className='w-full border p-1 border-gray-800' onSubmit={(e)=>{e.preventDefault();
+      dispatch(addMessage({
+        name:"Anu",
+        message:liveMessage,
+      }))
+     }}>
 <input type='text' className='w-80 px-2 bg-slate-100' value={liveMessage} onChange={(e)=>{
   setLiveMessage(e.target.value);
 }} />
