@@ -32,7 +32,7 @@ const Sidebar = () => {
          <br />
          <h1 className='font-bold'>More from Youtube</h1>
         <ul>
-             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-6 h-5 inline-flex ml-2 mr-4" src="https://www.pixartprinting.co.uk/blog/wp-content/uploads/2025/05/Youtube_logo.jpg" alt='youtube' />YouTube Premium</li>
+             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-6 h-5 inline-flex m-2" src="https://www.pixartprinting.co.uk/blog/wp-content/uploads/2025/05/Youtube_logo.jpg" alt='youtube' />YouTube Premium</li>
             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="" />YouTube Music</li>
             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="" />YouTube Kids</li>
             
