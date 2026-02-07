@@ -22,12 +22,20 @@ const chatMessages =useSelector((store)=> store.chat.messages);
         return ()=> clearInterval(i);
     })
   return (
-    <div className='rounded-lg w-full h-[500px] pl-3 overflow-y-scroll flex-col-reverse'>
+    <>
+    <div className='rounded-lg w-full h-[500px] p-3 ml-2 overflow-y-scroll flex flex-col-reverse'>
+      <div>
         {chatMessages.map((chatmsg,index)=>(
  <ChatMessages key={index} name={chatmsg.name} messsage={chatmsg.message} />
         ))}
+   </div>
    
     </div>
+     <div className='w-full border p-1 border-gray-800'>
+<input type='text' className='w-80 bg-slate-50' />
+<button className='px-1 mx-1 bg-slate-400'>Submit</button>
+    </div>
+    </>
   )
 }
 
