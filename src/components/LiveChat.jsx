@@ -24,6 +24,8 @@ const LiveChat = () => {
     }, 2000);
     return () => clearInterval(i);
   }, []);
+  console.log(chatMessages,"messagesss");
+  console.log(chatMessages,"chat--");
   return (
     <>
       <div className="rounded-lg w-full h-[500px] p-3 ml-2 overflow-y-scroll flex flex-col-reverse">

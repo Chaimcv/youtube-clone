@@ -64,7 +64,7 @@ import React from "react";
                <CommentList comments={comment.replies} />
             </div>
           </div>
-        ))};
+        ))}
         </div>
     )
   };

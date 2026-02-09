@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-const ChatMessages = ({name,message}) => {
+const ChatMessages = ({name,messsage}) => {
   return (
     <div className='flex inline-block'>
        <img
@@ -11,7 +11,7 @@ const ChatMessages = ({name,message}) => {
           alt="user-icon"
         ></img>
      <span>{name}</span>
-      <span>{message}</span>
+      <span>{messsage}</span>
     </div>
   )
 }
