@@ -27,23 +27,23 @@ const Sidebar = () => {
             <li  className=' hover:bg-slate-100 rounded-lg'><img className="w-5 h-6 inline-flex m-2" src="https://st4.depositphotos.com/20858482/38053/v/1600/depositphotos_380531066-stock-illustration-shopping-bag-icon-bag-vector.jpg" alt='shopping'/>Shopping</li>
             <li className=' hover:bg-slate-100 rounded-lg'><img className="w-6 h-6 inline-flex m-2" src="https://media.istockphoto.com/id/1494298565/vector/vector-illustration-of-musical-note-logo-on-white-background.jpg?s=612x612&w=0&k=20&c=5_JC6F9d3eTAXDwdSx-Amkr67C7GpPf26_MIhSkXieE=" alt='music' />Music</li>
             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-6 h-6 inline-flex m-2" src="https://cdn.vectorstock.com/i/750p/24/90/monochrome-simple-clapperboard-icon-vector-36902490.avif" alt='films'/>Films</li>
-            <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="" />Show more</li>
+            <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="https://pic.onlinewebfonts.com/thumbnails/icons_243388.svg" />Show more</li>
         </ul>
          <br />
          <h1 className='font-bold'>More from Youtube</h1>
         <ul>
-             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-6 h-5 inline-flex m-2" src="https://www.pixartprinting.co.uk/blog/wp-content/uploads/2025/05/Youtube_logo.jpg" alt='youtube' />YouTube Premium</li>
-            <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="" />YouTube Music</li>
-            <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="" />YouTube Kids</li>
+             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-6 h-4 inline-flex m-2" src="https://www.pixartprinting.co.uk/blog/wp-content/uploads/2025/05/Youtube_logo.jpg" alt='youtube' />YouTube Premium</li>
+            <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-8 h-5 inline-flex m-1" src="https://logos-world.net/wp-content/uploads/2021/04/Youtube-Music-Logo-700x394.png" alt='youtube music' />YouTube Music</li>
+            <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src="https://e7.pngegg.com/pngimages/834/95/png-clipart-youtube-kids-child-mobile-app-youtube-emblem-child-thumbnail.png" alt='youtube kids' />YouTube Kids</li>
             
         </ul>
          <br />
        
         <ul>
-             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" />Settings</li>
-             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2"/>Report History</li>
-             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" />Help</li>
-             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" />Send Feedback</li>
+             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src='https://w7.pngwing.com/pngs/257/93/png-transparent-settings-gear-icon-gear-configuration-set-up-thumbnail.png' />Settings</li>
+             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-4 h-4 inline-flex m-2" src='https://www.svgrepo.com/show/438202/content-flag-report-win-mark-icon.svg'/>Report History</li>
+             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2" src='https://w7.pngwing.com/pngs/317/872/png-transparent-youtube-play-button-computer-icons-help-text-trademark-sign-thumbnail.png' />Help</li>
+             <li className=' hover:bg-slate-100 rounded-lg' ><img className="w-5 h-5 inline-flex m-2"src='https://cdn.iconscout.com/icon/free/png-512/free-feedback-icon-svg-download-png-1513839.png?f=webp&w=256' />Send Feedback</li>
         </ul>
     </div>
   )

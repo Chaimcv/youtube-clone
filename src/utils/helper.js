@@ -42,9 +42,6 @@ export const chatMessages = [
                 return nameList[Math.floor( Math.random() * nameList.length )];
               
             };
-            // Source - https://stackoverflow.com/a/1349426
-// Posted by csharptest.net, modified by community. See post 'Timeline' for change history
-// Retrieved 2026-02-07, License - CC BY-SA 4.0
 
 export function makeRandomMessage(length) {
     var result           = '';
